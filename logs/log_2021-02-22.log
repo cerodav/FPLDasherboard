@@ -1,0 +1,221 @@
+2021-02-22 15:57:18,976 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-02-22 15:57:18,977 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-02-22 15:57:19,302 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-02-22 15:57:19,302 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-02-22 15:57:20,977 	 [INFO | service.py:18] > Dashboard service listening on http://localhost:8086
+2021-02-22 15:57:32,131 	 [INFO | classicLeagueLiveHandler.py:19] > [INCOMING] Request at /api/CLASSICLEAGUE/854530 
+2021-02-22 15:57:32,132 	 [INFO | officialFPLApi.py:91] > Collecting event status
+2021-02-22 15:57:32,133 	 [INFO | officialFPLApi.py:96] > Request for event status : https://fantasy.premierleague.com/api/event-status/
+2021-02-22 15:57:32,328 	 [ERROR | classicLeagueLiveHandler.py:28] > [EXCEPTION] While trying to respond to query /api/CLASSICLEAGUE/854530
+Traceback (most recent call last):
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 23, in get
+    response = self.calculateLiveStandingsForLeague()
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 267, in calculateLiveStandingsForLeague
+    currentStandings = self.getClassicLeagueStandings()
+TypeError: getClassicLeagueStandings() missing 1 required positional argument: 'leagueId'
+2021-02-22 15:57:49,482 	 [INFO | classicLeagueLiveHandler.py:19] > [INCOMING] Request at /api/CLASSICLEAGUE/854530 
+2021-02-22 15:57:49,483 	 [INFO | officialFPLApi.py:91] > Collecting event status
+2021-02-22 15:57:49,483 	 [INFO | officialFPLApi.py:96] > Request for event status : https://fantasy.premierleague.com/api/event-status/
+2021-02-22 15:59:01,764 	 [ERROR | classicLeagueLiveHandler.py:28] > [EXCEPTION] While trying to respond to query /api/CLASSICLEAGUE/854530
+Traceback (most recent call last):
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 23, in get
+    response = self.calculateLiveStandingsForLeague()
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 267, in calculateLiveStandingsForLeague
+    currentStandings = self.getClassicLeagueStandings()
+TypeError: getClassicLeagueStandings() missing 1 required positional argument: 'leagueId'
+2021-02-22 15:59:08,953 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-02-22 15:59:08,953 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-02-22 15:59:09,267 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-02-22 15:59:09,267 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-02-22 15:59:10,521 	 [INFO | service.py:18] > Dashboard service listening on http://localhost:8086
+2021-02-22 15:59:15,579 	 [INFO | classicLeagueLiveHandler.py:19] > [INCOMING] Request at /api/CLASSICLEAGUE/854530 
+2021-02-22 15:59:15,580 	 [INFO | officialFPLApi.py:91] > Collecting event status
+2021-02-22 15:59:15,580 	 [INFO | officialFPLApi.py:96] > Request for event status : https://fantasy.premierleague.com/api/event-status/
+2021-02-22 17:07:53,488 	 [INFO | coreUtils.py:287] > A
+2021-02-22 17:08:29,618 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-02-22 17:08:29,618 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-02-22 17:13:51,111 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-02-22 17:13:51,112 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-02-22 17:14:14,328 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-02-22 17:14:14,329 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-02-22 17:14:18,305 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-02-22 17:14:18,306 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-02-22 17:14:20,353 	 [INFO | service.py:18] > Dashboard service listening on http://localhost:8086
+2021-02-22 17:14:31,817 	 [INFO | classicLeagueLiveHandler.py:19] > [INCOMING] Request at /api/CLASSICLEAGUE/854530 
+2021-02-22 17:14:31,817 	 [INFO | officialFPLApi.py:91] > Collecting event status
+2021-02-22 17:14:31,817 	 [INFO | officialFPLApi.py:96] > Request for event status : https://fantasy.premierleague.com/api/event-status/
+2021-02-22 17:14:42,985 	 [ERROR | classicLeagueLiveHandler.py:28] > [EXCEPTION] While trying to respond to query /api/CLASSICLEAGUE/854530
+Traceback (most recent call last):
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10065] A socket operation was attempted to an unreachable host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001A9072B3850>: Failed to establish a new connection: [WinError 10065] A socket operation was attempted to an unreachable host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\urllib3\util\retry.py", line 573, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='fantasy.premierleague.com', port=443): Max retries exceeded with url: /api/event-status/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A9072B3850>: Failed to establish a new connection: [WinError 10065] A socket operation was attempted to an unreachable host'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 23, in get
+    response = self.calculateLiveStandingsForLeague()
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 268, in calculateLiveStandingsForLeague
+    eventStatus = self.fplApi.getEventStatus()
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\api\officialFPL\officialFPLApi.py", line 98, in getEventStatus
+    r = requests.get(completedUrl)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='fantasy.premierleague.com', port=443): Max retries exceeded with url: /api/event-status/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A9072B3850>: Failed to establish a new connection: [WinError 10065] A socket operation was attempted to an unreachable host'))
+2021-02-22 17:16:03,689 	 [INFO | classicLeagueLiveHandler.py:19] > [INCOMING] Request at /api/CLASSICLEAGUE/854530 
+2021-02-22 17:16:03,690 	 [INFO | officialFPLApi.py:91] > Collecting event status
+2021-02-22 17:16:03,690 	 [INFO | officialFPLApi.py:96] > Request for event status : https://fantasy.premierleague.com/api/event-status/
+2021-02-22 17:43:44,020 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-02-22 17:43:44,020 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-02-22 17:43:44,975 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-02-22 17:43:44,975 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-02-22 17:43:46,645 	 [INFO | service.py:18] > Dashboard service listening on http://localhost:8086
+2021-02-22 17:43:46,686 	 [INFO | classicLeagueLiveHandler.py:19] > [INCOMING] Request at /api/CLASSICLEAGUE/854530 
+2021-02-22 17:43:46,686 	 [INFO | officialFPLApi.py:91] > Collecting event status
+2021-02-22 17:43:46,686 	 [INFO | officialFPLApi.py:96] > Request for event status : https://fantasy.premierleague.com/api/event-status/
+2021-02-22 17:44:18,855 	 [INFO | coreUtils.py:289] > A
+2021-02-22 17:44:18,856 	 [ERROR | classicLeagueLiveHandler.py:28] > [EXCEPTION] While trying to respond to query /api/CLASSICLEAGUE/854530
+Traceback (most recent call last):
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 23, in get
+    response = self.calculateLiveStandingsForLeague()
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 269, in calculateLiveStandingsForLeague
+    currentStandings = self.getClassicLeagueStandings(leagueId)
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 201, in getClassicLeagueStandings
+    basicInfo = CoreUtils.getStaleClassicLeagueStandings(leagueId)
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\utils\coreUtils.py", line 298, in getStaleClassicLeagueStandings
+    'name' : leagueDetails.name
+AttributeError: 'dict' object has no attribute 'name'
+2021-02-22 17:44:46,256 	 [INFO | classicLeagueLiveHandler.py:19] > [INCOMING] Request at /api/CLASSICLEAGUE/854530 
+2021-02-22 17:44:46,256 	 [INFO | officialFPLApi.py:91] > Collecting event status
+2021-02-22 17:44:46,256 	 [INFO | officialFPLApi.py:96] > Request for event status : https://fantasy.premierleague.com/api/event-status/
+2021-02-22 17:44:47,428 	 [INFO | coreUtils.py:289] > A
+2021-02-22 17:44:47,428 	 [ERROR | classicLeagueLiveHandler.py:28] > [EXCEPTION] While trying to respond to query /api/CLASSICLEAGUE/854530
+Traceback (most recent call last):
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 23, in get
+    response = self.calculateLiveStandingsForLeague()
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 269, in calculateLiveStandingsForLeague
+    currentStandings = self.getClassicLeagueStandings(leagueId)
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 201, in getClassicLeagueStandings
+    basicInfo = CoreUtils.getStaleClassicLeagueStandings(leagueId)
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\utils\coreUtils.py", line 298, in getStaleClassicLeagueStandings
+    'name' : leagueDetails.name
+AttributeError: 'dict' object has no attribute 'name'
+2021-02-22 17:45:17,993 	 [INFO | classicLeagueLiveHandler.py:19] > [INCOMING] Request at /api/CLASSICLEAGUE/854530 
+2021-02-22 17:45:17,994 	 [INFO | officialFPLApi.py:91] > Collecting event status
+2021-02-22 17:45:17,994 	 [INFO | officialFPLApi.py:96] > Request for event status : https://fantasy.premierleague.com/api/event-status/
+2021-02-22 17:45:23,018 	 [INFO | coreUtils.py:289] > A
+2021-02-22 17:46:11,005 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-02-22 17:46:11,005 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-02-22 17:46:11,413 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-02-22 17:46:11,413 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-02-22 17:46:15,429 	 [INFO | service.py:18] > Dashboard service listening on http://localhost:8086
+2021-02-23 23:00:50,520 	 [INFO | classicLeagueLiveHandler.py:19] > [INCOMING] Request at /api/CLASSICLEAGUE/854530 
+2021-02-23 23:00:50,522 	 [INFO | officialFPLApi.py:91] > Collecting event status
+2021-02-23 23:00:50,523 	 [INFO | officialFPLApi.py:96] > Request for event status : https://fantasy.premierleague.com/api/event-status/
+2021-02-23 23:01:01,759 	 [INFO | coreUtils.py:289] > A
+2021-02-24 02:49:20,085 	 [ERROR | classicLeagueLiveHandler.py:28] > [EXCEPTION] While trying to respond to query /api/CLASSICLEAGUE/854530
+Traceback (most recent call last):
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\engine\base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\engine\default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (2006, 'MySQL server has gone away')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 23, in get
+    response = self.calculateLiveStandingsForLeague()
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 269, in calculateLiveStandingsForLeague
+    currentStandings = self.getClassicLeagueStandings(leagueId)
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 201, in getClassicLeagueStandings
+    basicInfo = CoreUtils.getStaleClassicLeagueStandings(leagueId)
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\utils\coreUtils.py", line 311, in getStaleClassicLeagueStandings
+    info['activeChip'] = member.team.activeChip
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\orm\attributes.py", line 294, in __get__
+    return self.impl.get(instance_state(instance), dict_)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\orm\attributes.py", line 730, in get
+    value = self.callable_(state, passive)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\orm\strategies.py", line 759, in _load_for_state
+    return self._emit_lazyload(
+  File "<string>", line 1, in <lambda>
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\orm\strategies.py", line 847, in _emit_lazyload
+    q(session)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\ext\baked.py", line 615, in _load_on_pk_identity
+    result = list(bq.for_session(self.session).params(**params))
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\ext\baked.py", line 444, in __iter__
+    return q._execute_and_instances(context)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\orm\query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\engine\base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\sql\elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\engine\base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\engine\base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\engine\base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\util\compat.py", line 182, in raise_
+    raise exception
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\engine\base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\engine\default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+sqlalchemy.exc.OperationalError: (MySQLdb._exceptions.OperationalError) (2006, 'MySQL server has gone away')
+[SQL: SELECT `Team`.`teamId` AS `Team_teamId`, `Team`.name AS `Team_name`, `Team`.`userName` AS `Team_userName`, `Team`.`wc1Played` AS `Team_wc1Played`, `Team`.`wc2Played` AS `Team_wc2Played`, `Team`.`tcPlayed` AS `Team_tcPlayed`, `Team`.`bbPlayed` AS `Team_bbPlayed`, `Team`.`fhPlayed` AS `Team_fhPlayed`, `Team`.`createdTime` AS `Team_createdTime`, `Team`.`modifiedTime` AS `Team_modifiedTime`, `Team`.`overallRank` AS `Team_overallRank`, `Team`.`overallPoints` AS `Team_overallPoints`, `Team`.`bankValue` AS `Team_bankValue`, `Team`.`squadValue` AS `Team_squadValue`, `Team`.gameweek AS `Team_gameweek`, `Team`.`gameweekPoints` AS `Team_gameweekPoints`, `Team`.`totalTransfers` AS `Team_totalTransfers`, `Team`.`gameweekTransfers` AS `Team_gameweekTransfers`, `Team`.`gameweekTransferCost` AS `Team_gameweekTransferCost`, `Team`.`activeChip` AS `Team_activeChip` 
+FROM `Team` 
+WHERE `Team`.`teamId` = %s]
+[parameters: ('2599752',)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)

@@ -1,0 +1,13 @@
+2021-04-22 09:55:17,791 	 [INFO | officialFPLApi.py:121] > Collecting bootstrap static data
+2021-04-22 09:55:17,791 	 [INFO | officialFPLApi.py:126] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-04-22 09:55:18,151 	 [INFO | service.py:19] > Dashboard service listening on http://localhost:8086
+2021-04-22 10:00:10,699 	 [INFO | classicLeagueLiveHandler.py:19] > [INCOMING] Request at /api/classicleague/854530 
+2021-04-22 10:01:38,482 	 [ERROR | classicLeagueLiveHandler.py:28] > [EXCEPTION] While trying to respond to query /api/classicleague/854530
+Traceback (most recent call last):
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 23, in get
+    response = self.calculateLiveStandingsForLeague()
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 273, in calculateLiveStandingsForLeague
+    currentStandings = self.getClassicLeagueStandings(leagueId)
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\handlers\classicLeagueLiveHandler.py", line 209, in getClassicLeagueStandings
+    for entry in basicInfo['standings']['results']:
+KeyError: 'standings'

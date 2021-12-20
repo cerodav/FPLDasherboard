@@ -1,0 +1,127 @@
+2021-04-05 00:18:28,649 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-04-05 00:18:28,649 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-04-05 00:18:31,401 	 [INFO | driver.py:21] > Driver setting up ...
+2021-04-05 00:21:05,996 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-04-05 00:21:05,996 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-04-05 00:21:08,983 	 [INFO | driver.py:22] > Driver setting up ...
+2021-04-05 00:36:47,461 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-04-05 00:36:47,463 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-04-05 00:36:49,643 	 [INFO | driver.py:22] > Driver setting up ...
+2021-04-05 00:36:49,659 	 [INFO | driver.py:47] > Criteria won't be evaluated ...
+2021-04-05 00:40:25,768 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-04-05 00:40:25,768 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-04-05 00:40:27,441 	 [INFO | driver.py:22] > Driver setting up ...
+2021-04-05 00:40:27,461 	 [INFO | driver.py:48] > Criteria won't be evaluated ...
+2021-04-05 00:40:43,178 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-04-05 00:40:43,182 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-04-05 00:40:45,361 	 [INFO | driver.py:22] > Driver setting up ...
+2021-04-05 00:40:45,381 	 [INFO | driver.py:48] > Criteria won't be evaluated ...
+2021-04-05 00:41:10,125 	 [INFO | officialFPLApi.py:91] > Collecting event status
+2021-04-05 00:41:10,125 	 [INFO | officialFPLApi.py:96] > Request for event status : https://fantasy.premierleague.com/api/event-status/
+2021-04-05 00:45:22,053 	 [ERROR | baseJob.py:24] >  ! Failure while running job : FPLBootstrapDataUpdateJob
+Traceback (most recent call last):
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\driver\job\baseJob.py", line 17, in start
+    if not self.force and self.criteria and not self.criteria.isValid():
+AttributeError: 'FPLBootstrapDataUpdateJob' object has no attribute 'force'
+2021-04-05 00:45:31,897 	 [INFO | driver.py:48] > Criteria won't be evaluated ...
+2021-04-05 00:45:32,729 	 [ERROR | baseJob.py:24] >  ! Failure while running job : LeagueMembershipCacheJob
+Traceback (most recent call last):
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\driver\job\baseJob.py", line 17, in start
+    if not self.force and self.criteria and not self.criteria.isValid():
+AttributeError: 'LeagueMembershipCacheJob' object has no attribute 'force'
+2021-04-05 00:45:51,373 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-04-05 00:45:51,373 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-04-05 00:45:53,174 	 [INFO | driver.py:22] > Driver setting up ...
+2021-04-05 00:45:53,186 	 [INFO | officialFPLApi.py:91] > Collecting event status
+2021-04-05 00:45:53,186 	 [INFO | officialFPLApi.py:96] > Request for event status : https://fantasy.premierleague.com/api/event-status/
+2021-04-05 00:46:01,389 	 [INFO | baseJob.py:17] >  + Starting job : FPLBootstrapDataUpdateJob
+2021-04-05 00:46:11,323 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-04-05 00:46:11,323 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-04-05 00:50:15,038 	 [INFO | baseJob.py:25] >  + Completed running job : FPLBootstrapDataUpdateJob
+2021-04-05 00:50:16,575 	 [INFO | baseJob.py:17] >  + Starting job : LeagueMembershipCacheJob
+2021-04-05 15:34:53,511 	 [INFO | leagueMembershipCacheJob.py:24] > Running LeagueMembershipCacheJob ...
+2021-04-05 15:35:02,332 	 [ERROR | baseJob.py:21] >  ! Failure while running job : LeagueMembershipCacheJob
+Traceback (most recent call last):
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\engine\base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\engine\default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (2006, 'MySQL server has gone away')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\driver\job\baseJob.py", line 19, in start
+    self.run()
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\driver\job\leagueMembershipCacheJob.py", line 25, in run
+    leagueIds = self.getLeagueIdListFromDB(priorityLevel=0)
+  File "D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\driver\job\leagueMembershipCacheJob.py", line 18, in getLeagueIdListFromDB
+    leagues = self.session.query(League).filter(League.priority == priorityLevel).all()
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\orm\query.py", line 3373, in all
+    return list(self)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\orm\query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\orm\query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\engine\base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\sql\elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\engine\base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\engine\base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\engine\base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\util\compat.py", line 182, in raise_
+    raise exception
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\engine\base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\sqlalchemy\engine\default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\sheri\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+sqlalchemy.exc.OperationalError: (MySQLdb._exceptions.OperationalError) (2006, 'MySQL server has gone away')
+[SQL: SELECT `League`.`leagueId` AS `League_leagueId`, `League`.name AS `League_name`, `League`.type AS `League_type`, `League`.`createdTime` AS `League_createdTime`, `League`.`modifiedTime` AS `League_modifiedTime`, `League`.priority AS `League_priority` 
+FROM `League` 
+WHERE `League`.priority = %s]
+[parameters: (0,)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+2021-04-05 15:36:25,162 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-04-05 15:36:25,162 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-04-05 15:36:27,061 	 [INFO | driver.py:22] > Driver setting up ...
+2021-04-05 15:36:27,082 	 [INFO | officialFPLApi.py:91] > Collecting event status
+2021-04-05 15:36:27,082 	 [INFO | officialFPLApi.py:96] > Request for event status : https://fantasy.premierleague.com/api/event-status/
+2021-04-05 15:46:59,246 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
+2021-04-05 15:46:59,246 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-04-05 15:47:04,481 	 [INFO | driver.py:22] > Driver setting up ...
+2021-04-05 15:47:04,493 	 [INFO | officialFPLApi.py:91] > Collecting event status
+2021-04-05 15:47:04,493 	 [INFO | officialFPLApi.py:96] > Request for event status : https://fantasy.premierleague.com/api/event-status/
+2021-04-05 16:53:59,704 	 [INFO | officialFPLApi.py:121] > Collecting bootstrap static data
+2021-04-05 16:53:59,704 	 [INFO | officialFPLApi.py:126] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-04-05 16:54:02,602 	 [INFO | driver.py:22] > Driver setting up ...
+2021-04-05 16:54:41,428 	 [INFO | officialFPLApi.py:121] > Collecting bootstrap static data
+2021-04-05 16:54:41,428 	 [INFO | officialFPLApi.py:126] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-04-05 16:54:43,425 	 [INFO | driver.py:22] > Driver setting up ...
+2021-04-05 16:54:43,441 	 [INFO | officialFPLApi.py:98] > Collecting event status
+2021-04-05 16:54:43,441 	 [INFO | officialFPLApi.py:103] > Request for event status : https://fantasy.premierleague.com/api/event-status/
+2021-04-05 17:03:27,919 	 [INFO | officialFPLApi.py:121] > Collecting bootstrap static data
+2021-04-05 17:03:27,919 	 [INFO | officialFPLApi.py:126] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-04-05 17:03:29,521 	 [INFO | driver.py:22] > Driver setting up ...
+2021-04-05 17:03:29,533 	 [INFO | officialFPLApi.py:98] > Collecting event status
+2021-04-05 17:03:29,533 	 [INFO | officialFPLApi.py:103] > Request for event status : https://fantasy.premierleague.com/api/event-status/
+2021-04-05 17:04:23,373 	 [INFO | officialFPLApi.py:121] > Collecting bootstrap static data
+2021-04-05 17:04:23,373 	 [INFO | officialFPLApi.py:126] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
+2021-04-05 17:04:25,774 	 [INFO | driver.py:22] > Driver setting up ...
+2021-04-05 17:04:36,124 	 [INFO | officialFPLApi.py:98] > Collecting event status
+2021-04-05 17:04:36,124 	 [INFO | officialFPLApi.py:103] > Request for event status : https://fantasy.premierleague.com/api/event-status/

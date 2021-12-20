@@ -1,0 +1,23 @@
+logFilePath : 'D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\logs'
+picklePath : 'D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\pickles'
+
+driverRoutine :
+  0:
+    jobName: FPLBootstrapDataUpdateJob
+    criteria: BootstrapDataUpdateEvent
+  1 :
+    jobName : LeagueMembershipCacheJob
+    criteria : MembershipUpdateEvent
+
+minsBeforeKickOffCacheUpdateTime : 30
+
+dbDetails :
+  dbType : mysql
+  dbUserName : admin
+  dbPassword : Grizzi.1234
+  dbEndpoint : fpldb-instance.cv9fxvnkpp9v.us-west-2.rds.amazonaws.com
+  xdbEndpoint : fpldb.cwbl0hb9kmut.us-west-2.rds.amazonaws.com
+  dbPort : 3306
+  dbName : fpldb_devdb
+
+
