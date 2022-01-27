@@ -1,0 +1,31 @@
+logFilePath : 'D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\logs'
+picklePath : 'D:\Sherine Davis\Code\PycharmProjects\FPLDasherboard\fpldb\dashboardService\pickles'
+
+driverRoutine :
+  0:
+    jobName: FPLBootstrapDataUpdateJob
+    criteria: BootstrapDataUpdateEvent
+  1 :
+    jobName : LeagueMembershipCacheJob
+    criteria : MembershipUpdateEvent
+
+minsBeforeKickOffCacheUpdateTime : 30
+
+dbDetails_old :
+  dbType : mysql
+  dbUserName : admin
+  dbPassword : abcdedfg
+  dbEndpoint : fpldb-instance.abcdedfghij.us-west-2.rds.amazonaws.com
+  xdbEndpoint : fpldb.abcdedfghij.rds.amazonaws.com
+  dbPort : 3306
+  dbName : fpldb_sample
+
+dbDetails :
+  dbType : postgres
+  connStr : postgresql+psycopg2://msjpccftmfpeve:3969091aed024cc34c2c8b5f995e4df6543c230a216744cae6c5acb84f2e71d7@ec2-44-195-186-223.compute-1.amazonaws.com:5432/d8s4koo0hb4p7p
+
+telegram :
+  api_id : 12345678
+  api_hash : abcdedfg
+  username : Sherine Davis Kozhikadan
+  channel : https://t.me/Fantasy_Premier_League
