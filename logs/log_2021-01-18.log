@@ -1,8 +1,0 @@
-2021-01-18 00:58:32,858 	 [INFO | officialFPLApi.py:113] > Collecting bootstrap static data
-2021-01-18 00:58:32,858 	 [INFO | officialFPLApi.py:113] > Collecting bootstrap static data
-2021-01-18 00:58:32,859 	 [INFO | officialFPLApi.py:118] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
-2021-01-18 00:58:32,859 	 [INFO | officialFPLApi.py:118] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
-2021-01-18 01:02:37,197 	 [INFO | officialFPLApi.py:113] > Collecting bootstrap static data
-2021-01-18 01:02:37,197 	 [INFO | officialFPLApi.py:118] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
-2021-01-18 01:04:24,508 	 [INFO | officialFPLApi.py:113] > Collecting bootstrap static data
-2021-01-18 01:04:24,508 	 [INFO | officialFPLApi.py:118] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/

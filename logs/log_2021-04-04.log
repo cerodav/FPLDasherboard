@@ -1,7 +1,0 @@
-2021-04-04 16:49:15,415 	 [INFO | officialFPLApi.py:91] > Collecting event status
-2021-04-04 16:49:15,415 	 [INFO | officialFPLApi.py:96] > Request for event status : https://fantasy.premierleague.com/api/event-status/
-2021-04-04 17:56:40,080 	 [INFO | officialFPLApi.py:112] > Collecting bootstrap static data
-2021-04-04 17:56:40,080 	 [INFO | officialFPLApi.py:117] > Request for bootstrap static data : https://fantasy.premierleague.com/api/bootstrap-static/
-2021-04-04 17:56:41,300 	 [INFO | officialFPLApi.py:91] > Collecting event status
-2021-04-04 17:56:41,300 	 [INFO | officialFPLApi.py:96] > Request for event status : https://fantasy.premierleague.com/api/event-status/
-2021-04-04 17:56:48,760 	 [INFO | MembershipUpdateCriterion.py:60] > [C] Key : , isValid : True
