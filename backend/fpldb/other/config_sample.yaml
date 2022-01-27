@@ -22,7 +22,7 @@ dbDetails_old :
 
 dbDetails :
   dbType : postgres
-  connStr : postgresql+psycopg2://msjpccftmfpeve:3969091aed024cc34c2c8b5f995e4df6543c230a216744cae6c5acb84f2e71d7@ec2-44-195-186-223.compute-1.amazonaws.com:5432/d8s4koo0hb4p7p
+  connStr : postgresql+psycopg2://abcdefhgiij:3969091aed024cc34c2c8b5@ec2-44-195-186-223.compute-1.amazonaws.com:5432/abcdefghjij
 
 telegram :
   api_id : 12345678
